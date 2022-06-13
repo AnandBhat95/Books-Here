@@ -7,6 +7,7 @@ Includes
        --Forgot password
        --delete uploaded materilas
        --Upload both pdfs or book images
+       --Serach both books and pdfs under different courses
        --Report not related posts
        --firebase mail authentication system
        --logout
