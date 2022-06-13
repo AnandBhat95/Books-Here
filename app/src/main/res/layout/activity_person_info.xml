@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_shape"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Settings"
+        android:fontFamily="@font/bungee"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:text="Logout"
+            android:background="@drawable/dialog_shape"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_abt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="@drawable/dialog_shape"
+            android:text="Info"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

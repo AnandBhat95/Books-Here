@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/bottom_nav_design_color.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/btn_custom.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/button_shape.xml" value="0.1785" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/dialog_shape.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/et_custom.xml" value="0.1195" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/image_back.xml" value="0.138" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/skip_icon.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/spinner_style.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/drawable/splash_screen_background.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_about.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_book_inforamtion.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_buy_hard_soft_copy.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_buy_sell.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_course_list.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_dashboard.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_displa_image_mca.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_forgot_password.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_main.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_main2.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_notification.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_pdf_view.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_pdfdownload_delete.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_pds_delete.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_person_info.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_upload.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_upload_books.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_upload_soft_copy.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_user_upload_info.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/activity_user_upload_pop_up.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/alert_dilog_profile_picture.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/buy_sell_screen.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/content_navigation_drawer.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_first_.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_gallery.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_register.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_second.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_slideshow.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/fragment_third.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/listview_change.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/recyclerview_items.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/slides_layout.xml" value="0.1" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/splash_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/layout/toolbar.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/menu/navigation_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/anand/AndroidStudioProjects/BooksHere/app/src/main/res/menu/search_menu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

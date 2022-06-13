@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent"
+    tools:context=".LoginFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:fontFamily="@font/bungee"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/teal_700"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/tv_subtitle"/>
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_email"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/b"
+        android:textStyle="bold"
+        android:text="@string/tag"
+        android:textColor="@color/gray"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/et_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dialog_shape"
+        android:fontFamily="@font/bungee"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:boxBackgroundMode="none"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/password"
+            android:id="@+id/log_pass"
+            android:padding="15dp"
+            android:fontFamily="@font/bungee"
+            android:inputType="textPassword"
+            android:layout_centerInParent="true"
+            android:textColor="@color/gray"
+            android:background="@drawable/dialog_shape"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/bungee"
+        android:text="@string/login"
+        android:textColor="@color/gray" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/swipeRight"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_arrow_right" />
+
+    <TextView
+        android:id="@+id/swipeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/swipe_left_for_register"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/btn_login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="2dp"
+        android:ems="10"
+        android:fontFamily="@font/bungee"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="@string/forgot_pass"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Relative layout as parent layout -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4f4f4"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="18dp"
+            android:paddingTop="50dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/bungee"
+                android:text="Pdf Details"
+                android:textColor="@color/gray"
+                android:textSize="30dp" />
+
+
+            <EditText
+                android:id="@+id/pdf_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/et_custom"
+                android:fontFamily="@font/bungee"
+                android:hint="Notes Name"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/contact_no_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/et_custom"
+                android:fontFamily="@font/bungee"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="14sp" />
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/price"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="16dp"-->
+            <!--                android:background="@drawable/et_custom"-->
+            <!--                android:hint="Expected Price"-->
+            <!--                android:textColor="@color/gray"-->
+            <!--                android:inputType="number"-->
+            <!--                android:padding="12dp"-->
+            <!--                android:singleLine="true"-->
+            <!--                android:fontFamily="@font/bungee"-->
+            <!--                android:textSize="14sp" />-->
+            <TextView
+
+                android:id="@+id/year_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/bungee"
+                android:text="Select Course year of book"
+                android:textColor="@color/gray"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/year_spinner1"
+                android:layout_width="169dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/et_custom"
+                android:popupBackground="@color/cache_color" />
+
+
+            <TextView
+
+                android:id="@+id/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/bungee"
+                android:text="Select Book Course"
+                android:textColor="@color/gray"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/course_spinner1"
+                android:layout_width="169dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+
+                android:background="@drawable/et_custom"
+                android:popupBackground="@color/cache_color" />
+
+
+            <!--ImageView to preview the selected image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/BSelectPdf"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/bungee"
+                android:text="SELECT pdf"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/pdfDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:fontFamily="@font/bungee"
+                android:text="Details"
+                android:textColor="@color/gray"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/uploadPdf"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/editText2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/bungee"
+                android:text="Upload"
+                android:textColor="@color/gray"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="266dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginBottom="8dp"
+            android:background="#e2e2e2" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1.5dp"
+            android:layout_weight="1"
+            android:background="#e2e2e2" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

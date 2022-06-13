@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainScreen"
+    android:orientation="vertical"
+    tools:context=".CourseList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Course Here"
+        android:textSize="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bungee"/>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/transparent">
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mca"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_custom"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/gray"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/mca" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mba"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/mba" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/eee"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/e_e" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/is"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/is" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cs"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/gray"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:text="@string/cs" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/biote"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:textColor="@color/gray"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/bt" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/civil"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/bungee"
+            android:textSize="20dp"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/civil" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mech"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/gray"
+            android:textSize="20dp"
+            android:background="@drawable/btn_custom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/mec" />
+
+
+    </GridLayout>
+
+</ScrollView>
+
+</LinearLayout>

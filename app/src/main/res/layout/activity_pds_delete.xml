@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdsDelete">
+
+    <SearchView
+        android:id="@+id/searchView_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Pdfs"
+        android:background="@color/teal_700"
+        android:iconifiedByDefault="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <TextView
+
+        android:id="@+id/details1_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/bungee"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/searchView_user"
+        android:text="Your PDFs"
+        android:textSize="30sp" />
+    <View
+        android:layout_below="@id/details1_user"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray" />
+    <ListView
+        android:id="@+id/listView_user"
+        android:layout_below="@+id/details1_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/gray"
+        android:dividerHeight="2dip"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/down_user"
+        android:layout_alignParentBottom="true"
+        android:text="Touch Pdf name to delete"
+        android:fontFamily="@font/a"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/gray"
+        />
+
+</RelativeLayout>

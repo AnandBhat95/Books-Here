@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Books Here</string>
+    <string name="logo_name">Books Here</string>
+    <string name="slogan_name">Deal Your Books Here</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Search Books or PDFs </string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Upload Your Books or PDFs</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can choose book in related or download available notes. We will display related books or notes there. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of books registered with app. You can contact book owners you needed.</string>
+    <string name="third_slide_desc">If you have a books or notes and want to be a part of this app then add your books by following simple steps.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Right for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag"> Join us and \nDeal your books with others</string>
+    <string name="swipe_right_for_login">Swipe Left for Login</string>
+    <string name="register">Register</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="your_name">Full Name</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="reset">Reset Password</string>
+    <string name="mca">MCA</string>
+    <string name="mba">MBA</string>
+    <string name="e_e">EEE</string>
+    <string name="is">IS</string>
+    <string name="cs">CS</string>
+    <string name="mec">Mech</string>
+    <string name="civil">Civil</string>
+    <string name="bt">BioTech</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="search">Search here</string>
+</resources>
