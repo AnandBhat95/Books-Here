@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "648703767247",
+    "project_number": "",
     "project_id": "books-here-bf0f1",
-    "storage_bucket": "books-here-bf0f1.appspot.com"
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:648703767247:android:6a54e2899d1422f760fdba",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.bookshere"
         }
       },
       "oauth_client": [
         {
-          "client_id": "648703767247-i2lhggg5u95lh52c7guv5fjl5mrppduo.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCMVN5-k7apvIesqRKiY6JqLkwhBFoF8T8"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "648703767247-i2lhggg5u95lh52c7guv5fjl5mrppduo.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
